@@ -7,3 +7,16 @@ Here is the link to the competition:
 I have organized this project into two primary notebooks:
 1. Initial orientation and getting to know the dataset: An initial deep dive into the dataset, covering data visualization, distribution analysis, and structural understanding of the scans.
 2. The actual segmentation pipleline: The core implementation and pipleline, featuring a U-Net architecture.
+
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+Results: (still updating):
+Segmentation V_2:
+Configuration: Model = U-Net (encoder= 'resnet34', decoder = 'imagenet'), 30 epochs, loss = Diceloss, optimizer = SGD, NO image augmentation was applied
+
+Best achieved metrics:
+- Training Loss: 0.1246
+- Validation Loss: 0.1718
+- Validation Dice Score: 0.7731
+--------------------------------------------
