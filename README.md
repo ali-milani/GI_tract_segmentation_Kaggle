@@ -28,4 +28,7 @@ Best achieved metrics:
 - Validation Loss: 0.1641
 - Validation Dice Score: 0.8068
 --------------------------------------------
+Segmentation V_4:
+Configuration: Model = Same a V_3 but image augmentation feature was added.
+Results were almost identical to V_3
 --------------------------------------------
