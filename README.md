@@ -29,6 +29,6 @@ Best achieved metrics:
 - Validation Dice Score: 0.8068
 --------------------------------------------
 Segmentation V_4:
-Configuration: Model = Same as V_3 but image augmentation feature was added.
+Configuration: Same as V_3, just image augmentation feature was added.
 Results were almost identical to V_3
 
