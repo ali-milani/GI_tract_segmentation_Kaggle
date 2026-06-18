@@ -13,7 +13,7 @@ I have organized this project into two primary notebooks:
 ---------------------------------------------
 Results: (still updating)
 Segmentation V_2:
-Configuration: Model = U-Net (encoder= 'resnet34', decoder = 'imagenet'), 30 epochs, loss = Diceloss, optimizer = SGD, NO image augmentation was applied
+Configuration: Model = U-Net (encoder= 'resnet34'), 30 epochs, loss = Diceloss, optimizer = SGD, NO image augmentation was applied
 
 Best achieved metrics:
 - Training Loss: 0.1246
@@ -21,7 +21,7 @@ Best achieved metrics:
 - Validation Dice Score: 0.7731
 --------------------------------------------
 Segmentation V_3:
-Configuration: Model = U-Net (encoder= 'resnet34', decoder = 'imagenet'), 30 epochs, loss = dice_bce_loss, optimizer = Adam, NO image augmentation was applied
+Configuration: Model = U-Net (encoder= 'resnet34'), 30 epochs, loss = dice_bce_loss, optimizer = Adam, NO image augmentation was applied
 
 Best achieved metrics:
 - Training Loss: 0.1834
