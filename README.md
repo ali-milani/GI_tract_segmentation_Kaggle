@@ -30,5 +30,3 @@ Best achieved metrics:
 --------------------------------------------
 Segmentation V_4:
 Configuration: Same as V_3, just image augmentation feature was added.
-Results were almost identical to V_3
-
