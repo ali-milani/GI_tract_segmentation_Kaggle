@@ -9,8 +9,6 @@ I have organized this project into two primary notebooks:
 2. The actual segmentation pipleline: The core implementation and pipleline, featuring a U-Net architecture.
 
 ---------------------------------------------
----------------------------------------------
----------------------------------------------
 Results: (still updating!)
 Segmentation V_2:
 Configuration: Model = U-Net (encoder= 'resnet34'), 30 epochs, loss = Diceloss, optimizer = SGD, NO image augmentation was applied
