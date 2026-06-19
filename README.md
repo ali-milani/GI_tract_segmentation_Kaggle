@@ -11,14 +11,14 @@ I have organized this project into two primary notebooks:
 ---------------------------------------------
 ---------------------------------------------
 ---------------------------------------------
-Results: (still updating)
+Results: (still updating!)
 Segmentation V_2:
 Configuration: Model = U-Net (encoder= 'resnet34'), 30 epochs, loss = Diceloss, optimizer = SGD, NO image augmentation was applied
 
 Best achieved metrics:
 - Training Loss: 0.1246
 - Validation Loss: 0.1718
-- Validation Dice Score: 0.7731
+- Validation Dice coefficient: 0.7731
 --------------------------------------------
 Segmentation V_3:
 Configuration: Model = U-Net (encoder= 'resnet34'), 30 epochs, loss = dice_bce_loss, optimizer = Adam, NO image augmentation was applied
@@ -26,7 +26,16 @@ Configuration: Model = U-Net (encoder= 'resnet34'), 30 epochs, loss = dice_bce_l
 Best achieved metrics:
 - Training Loss: 0.1834
 - Validation Loss: 0.1641
-- Validation Dice Score: 0.8068
+- Validation Dice coefficient: 0.8068
 --------------------------------------------
 Segmentation V_4:
-Configuration: Same as V_3, just image augmentation feature was added.
+Configuration: Same as V_3, just image augmentation feature was added. The results were almost identical to the V_3
+
+--------------------------------------------
+Segmentation V_5:
+Configuration: Model = U-Net (encoder= 'timm-efficientnet-b4'), 30 epochs, loss = dice_bce_loss, optimizer = Adam, NO image augmentation was applied
+
+Best achieved metrics:
+- Training Loss: 0.1239
+- Validation Loss: 0.1483
+- Validation Dice coefficient: 0.8234
