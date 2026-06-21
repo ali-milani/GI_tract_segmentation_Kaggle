@@ -40,7 +40,7 @@ Best achieved metrics:
 - Validation Dice coefficient: 0.8234
 ---------------------------------------------
 Segmentation V_6:
-Configuration: Model = identical to V_5 but image augmentation was added
+Configuration: identical to V_5 but image augmentation was added
 - Training Loss: 0.1516
 - Validation Loss: 0.1352
 - Validation Dice coefficient: 0.8288
