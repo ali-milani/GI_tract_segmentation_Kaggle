@@ -44,3 +44,14 @@ Configuration: identical to V_5 but image augmentation was added
 - Training Loss: 0.1516
 - Validation Loss: 0.1352
 - Validation Dice coefficient: 0.8288
+- ---------------------------------------------
+Segmentation V_7:
+Configuration: identical to V_6 but a new approch applied:
+The authors of top solutions in Kaggle competition page for this project has recommended adding a classifier model to the very begining of the pipeline.
+I did this based on their recommendation and got a significant improvement in previous results. However, there are few things notable: 
+The augementation startegy that I have applied thus far is a weak one. Also, the number of epochs that I run the segmentation loop is fairly low (n=30). i have also trained the classifier only for (n=8) epochs.
+I think, these factors are required to be addressed before we can harvest the full impact of the classifier unit.
+BY THE WAY, my new results:
+- Training Loss: 0.1399
+- Validation Loss: 0.5385
+- Validation Dice coefficient: 0.8344
