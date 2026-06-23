@@ -47,8 +47,8 @@ Configuration: identical to V_5 but image augmentation was added
 - ---------------------------------------------
 Segmentation V_7:
 Configuration: identical to V_6 but a new approch applied:
-The authors of top solutions in Kaggle competition page for this project has recommended adding a classifier model to the very begining of the pipeline.
-I did this based on their recommendation and got a significant improvement in previous results. However, there are few things notable: 
+The authors of top solutions in Kaggle competition page for this project have recommended adding a classifier model to the very begining of the pipeline.
+Based on these recommendations I added a classifier unit to the begining of the pipelie and got a significant improvement in the results. However, there are few things notable: 
 The augementation startegy that I have applied thus far is a weak one. Also, the number of epochs that I run the segmentation loop is fairly low (n=30). i have also trained the classifier only for (n=8) epochs.
 I think, these factors are required to be addressed before we can harvest the full impact of the classifier unit.
 BY THE WAY, my new results:
