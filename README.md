@@ -1,12 +1,12 @@
-This project implements a deep learning pipeline to perform semantic segmentation of the gastrointestinal tract (stomach, small bowel, and large bowel) on abdominal CT scan images.
+This project presents a deep learning-based approach for semantic segmentation of gastrointestinal tract structures, specifically the stomach, small bowel, and large bowel, from abdominal CT scan images.
 
-Source Competition: UW-Madison GI Tract Image Segmentation (Kaggle)
-Here is the link to the competition: 
-(https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation)
+It is based on the [UW-Madison GI Tract Image Segmentation](https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation) competition hosted on Kaggle, which focuses on the automated delineation of healthy organs in medical scans to support more accurate radiotherapy planning and cancer treatment.
 
-I have organized this project into two primary notebooks:
-1. Initial orientation and getting to know the dataset: An initial deep dive into the dataset, covering data visualization, distribution analysis, and structural understanding of the scans.
-2. The actual segmentation pipleline: The core implementation and pipleline, featuring a U-Net architecture.
+The work has been organized into two primary notebooks:
+
+- **Orientation (EDA) notebook**: In this notebook I have tried to get to know the dataset and familiarize my self with the images and masks
+- **Segmentation notebook(s)**: These are the notebooks that contain the segmentation pipeline. I have included multiple versions of the work, in choronological order as I was gradually improving and debugging the pipleline, to document its development over time.
+  
 
 ---------------------------------------------
 Results (still updating):
