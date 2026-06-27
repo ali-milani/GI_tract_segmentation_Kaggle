@@ -1,6 +1,9 @@
+<div align="center">
 <img width="783" height="402" alt="1780849967403" src="https://github.com/user-attachments/assets/6fd4238b-7287-4631-ab09-42451ca1f6d9" />
+</div>
 
-
+<br><br>
+# UW-Madison GI Tract Image Segmentation
 
 This project presents a deep learning-based approach for semantic segmentation of gastrointestinal tract structures, specifically the stomach, small bowel, and large bowel, from abdominal CT scan images.
 
