@@ -26,30 +26,30 @@ Best achieved metrics:
 - Validation Loss: 0.1718
 - Validation Dice coefficient: 0.7731
 
-🛑Segmentation V_3:
+🛑 Segmentation V_3:
 Configuration: Model = U-Net (encoder= 'resnet34'), 30 epochs, loss = dice_bce_loss, optimizer = Adam, NO image augmentation was applied
 Best achieved metrics:
 - Training Loss: 0.1834
 - Validation Loss: 0.1641
 - Validation Dice coefficient: 0.8068
 
-🛑Segmentation V_4:
+🛑 Segmentation V_4:
 Configuration: Same as V_3, just image augmentation feature was added. The results were almost identical to the V_3
 
-🛑Segmentation V_5:
+🛑 Segmentation V_5:
 Configuration: Model = U-Net (encoder= 'timm-efficientnet-b4'), 30 epochs, loss = dice_bce_loss, optimizer = Adam, NO image augmentation was applied
 Best achieved metrics:
 - Training Loss: 0.1239
 - Validation Loss: 0.1483
 - Validation Dice coefficient: 0.8234
 
-🛑Segmentation V_6:
+🛑 Segmentation V_6:
 Configuration: identical to V_5 but image augmentation was added
 - Training Loss: 0.1516
 - Validation Loss: 0.1352
 - Validation Dice coefficient: 0.8288
 
-🛑Segmentation V_7:
+🛑 Segmentation V_7:
 Configuration: identical to V_6 but a new approch applied:
 The authors of top solutions in Kaggle competition page for this project have recommended adding a classifier model to the very begining of the pipeline.
 Based on these recommendations I added a classifier unit to the begining of the pipelie and got a significant improvement in the results. However, there are few things notable: 
