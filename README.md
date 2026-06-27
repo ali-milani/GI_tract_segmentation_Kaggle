@@ -17,6 +17,7 @@ The work has been organized into two primary notebooks:
 
 ---------------------------------------------
 ⏳ **Results (still updating):**
+---------------------------------------------
 
 🛑 Segmentation V_2:
 Configuration: Model = U-Net (encoder= 'resnet34'), 30 epochs, loss = Diceloss, optimizer = SGD, NO image augmentation was applied
