@@ -5,7 +5,7 @@ It is based on the [UW-Madison GI Tract Image Segmentation](https://www.kaggle.c
 The work has been organized into two primary notebooks:
 
 - **Orientation (EDA) notebook**: In this notebook I have tried to get to know the dataset and familiarize my self with the images and masks
-- **Segmentation notebook(s)**: These are the notebooks that contain the segmentation pipeline. I have included multiple versions of the work, in choronological order as I was gradually improving and debugging the pipleline, to document its development over time.
+- **Segmentation notebook(s)**: These are the notebooks that contain the segmentation pipeline. I have included multiple versions of the work in a chronological order, as I was gradually improving the pipleline, to document its development over time.
   
 
 ---------------------------------------------
