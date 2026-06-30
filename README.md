@@ -53,7 +53,7 @@ The results were almost identical to the V_3
 - Validation Dice coefficient: 0.8288
 
 🛑 Segmentation V_7:  
-🚧 identical to V_6 but a method refered to as 2.5D approach was used. This is basically 2D approach but since data from three slices are simultaneously given to the model, people call it 2.5D. This method was recommended by best solutions authors on Kaggle competition website.
+🚧 identical to V_6 but a method refered to as 2.5D approach was used. This is basically 2D approach but since data from three slices are simultaneously given to the model, people call it 2.5D. This method was recommended by best solutions authors on Kaggle competition website.  
 🧪 Best achieved metrics:
 - Training Loss: 0.1641
 - Validation Loss: 0.1130
